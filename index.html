@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="Formulario.php">
+        <fieldset>
+            Tratamiento
+            <input type="radio" name="boton"> Sr.
+            <input type="radio" name="boton"> Sra.
+            Nombre:<input type="text" name="nombre" required>
+            Apellido 1:<input type="text" name="Apellido1" required>
+            Apellido 2:<input type="text" name="Apellido2" required><br>
+
+            Tipo Doc.<select name="doc" required>
+                <option>DNI</option>
+                <option>Pasaporte</option>
+                <option>NIA</option>
+                </select>
+            Nom Doc:<input type="text" name="Documento" required>
+            Fecha de Nacimiento <input type="text" name="dia" size="1" required>-<input type="text" name="mes" size="1" required>-<input type="text" name="any" size="3" required><br>
+
+            Pais de nacimiento <select name="pais" required>
+                <option>España</option>
+                <option>Alemania</option>
+                <option>Otro</option>
+                </select>
+            Nacionalidad <select name="nacionalidad" required>
+                <option>España</option>
+                <option>Alemania</option>
+                <option>Otro</option>
+                </select>
+            Segunda nacionalidad <select name="2nacionalidad" required>
+                <option>No</option>
+                <option>España</option>
+                <option>Alemania</option>
+                <option>Otro</option>
+                </select>
+            Pais residencia fiscal <select name="nacionalidadfiscal" required><br>
+                <option>España</option>
+                <option>Alemania</option>
+                <option>Otro</option>
+                </select>
+            Trabajo <select name="trabajo" required>
+                <option></option>
+                <option>Si</option>
+                <option>No</option>
+                </select>
+            Tipo de Actividad <select name="actividad" required>
+                <option></option>
+                <option>Si</option>
+                <option>No</option>
+                </select>
+            Sector profesional <select name="sector" required>
+                    <option></option>
+                    <option>Primario</option>
+                    <option>Secundario</option>
+                    <option>Terciario</option>
+                    </select>
+            Empresa<input type="text" name="Empresa" required><br>
+            Proposito de la cuenta<select name="proposito" required>
+                <option>Ahorro</option>
+                <option>Pension</option>
+                <option>Hipoteca</option>
+                </select>
+            Origen ahorros<select name="origen" required>
+                <option>Nomina</option>
+                <option>Loteria</option>
+                <option>Colchon</option>
+                    </select>   
+        </fieldset>
+    </form>
+</body>
+</html>
